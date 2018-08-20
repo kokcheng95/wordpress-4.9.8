@@ -1,0 +1,49 @@
+/*
+ Theme Name:     twentysixteen Child Theme
+ Theme URI:      https://elementor.com/
+ Description:    A minimal child theme to use with the TwentySixteen Theme, that includes a full width template. This can be used in <a href="https://elementor.com">Elementor</a> in order to design full width sections.
+ Author:         Elementor.com
+ Author URI:     https://elementor.com/
+ Template:       twentysixteen
+ Version:        1.0.0
+*/
+ 
+/* Add Custom CSS after this line */
+
+.full-width {
+	width: 100%;
+}
+
+.site-inner {
+    max-width: 100%;
+}
+
+.site-content {
+    padding: 0;
+}
+
+header#masthead,
+footer#colophon {
+	margin: 0 auto;
+	max-width: 1320px;
+}
+ 
+.entry-content {
+		margin-right: auto;
+		margin-left: auto;
+}
+
+@media screen and (min-width: 56.875em) {
+
+	.entry-content {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media screen and (min-width: 44.375em) {
+
+	.entry-content {
+		margin-right: auto;
+	}
+}

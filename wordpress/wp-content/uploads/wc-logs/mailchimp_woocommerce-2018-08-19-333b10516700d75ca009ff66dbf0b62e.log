@@ -1,0 +1,8 @@
+2018-08-19T10:10:22+00:00 NOTICE sync.started :: Starting Sync :: Sun, Aug 19, 2018 10:10 AM
+2018-08-19T10:10:26+00:00 NOTICE product_sync.success :: addStoreProduct :: #34
+2018-08-19T10:10:28+00:00 NOTICE product_sync.completed :: Done with the product sync :: queuing up the orders next!
+2018-08-19T10:10:30+00:00 ERROR order_submit.error :: addStoreOrder :: 39 :: <p>order_url: That is not a valid URL: http://localhost/wordpress-4.9.8/wordpress/my-account/view-order/39/</p> on 1455 in C:\xampp\htdocs\wordpress-4.9.8\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2018-08-19T10:10:31+00:00 ERROR order_submit.error :: addStoreOrder :: 40 :: <p>order_url: That is not a valid URL: http://localhost/wordpress-4.9.8/wordpress/my-account/view-order/40/</p> on 1455 in C:\xampp\htdocs\wordpress-4.9.8\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2018-08-19T10:10:32+00:00 ERROR order_submit.error :: addStoreOrder :: 41 :: <p>order_url: That is not a valid URL: http://localhost/wordpress-4.9.8/wordpress/my-account/view-order/41/</p> on 1455 in C:\xampp\htdocs\wordpress-4.9.8\wordpress\wp-content\plugins\mailchimp-for-woocommerce\includes\api\class-mailchimp-api.php
+2018-08-19T10:10:34+00:00 NOTICE order_submit.completed :: Done with the order sync.
+2018-08-19T10:10:34+00:00 NOTICE sync.completed :: Finished Sync :: Sun, Aug 19, 2018 10:10 AM
